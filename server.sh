@@ -1,5 +1,5 @@
 #!/bin/bash
-screen="changeme"
+screen="Start.sh"
 pid=`ps aux | grep $screen | awk '{print $2}'`
 directory="/directory/to/server"
 javac="java -jar server.jar"
